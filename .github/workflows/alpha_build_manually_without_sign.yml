@@ -1,9 +1,6 @@
 name: Alpha Build Manually (Without signature)
 
 on:
-  push:
-    branches:
-      - develop
   workflow_dispatch:
     inputs:
       google_services_json:
